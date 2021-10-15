@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+
+    font-family: Lato, sans-serif;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.poc_component_login-form_LoginForm__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2ecc71;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    width: 43rem;
+    height: 40rem;
+
+    margin: 10rem auto;
+    border-radius: 0.3rem;
+
+
+}
+
+.box h1{
+    font-weight: 100;
+    font-size: 3.2rem;
+    margin: 2rem auto;
+}
+
+input, button{
+    margin: 1.2rem;
+    width: 30rem;
+    height: 4rem;
+    border-radius: 0.3rem;
+
+    text-align: center;
+}
+
+input:focus{
+    background-color: #dfe6e9;
+}
+
+@media screen and (max-width: 31.4rem) {
+    
+    .box{
+        width: 30rem;
+        height: 40rem;
+    
+        margin: 15rem auto;
+    }
+
+    input, button{
+        width: 25rem;
+        height: 4rem;
+    }
+
+    .box img{
+        width: 5em;
+        height: 5rem;
+
+        margin: 1rem 0;
+    }
+}
