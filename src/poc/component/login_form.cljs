@@ -21,7 +21,7 @@
         busy? (= session-state :state/checking-credentials)
         error? (= session-state :state/server-failed)]
     (div {:classes [box]}
-         (dom/img {:src "/imgs/clojureLogo.svg"})
+         (dom/img {:src "imgs/clojureLogo.svg"})
          (when error? "ERROR!")
          (when bad-credentials "BAD CREDENTIALS!")
          (when busy? "Loading…")

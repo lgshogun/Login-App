@@ -47,7 +47,7 @@
    :css [[:.toolbar {:display "flex"
                      :align-items "flex-end"
                      :flex-direction "column"
-                     :background-color "#f7f8fb"}]]}
+                     :background-color "#2ecc71"}]]}
   (let [{:keys [toolbar]} (css/get-classnames Root)
         session-state (uism/get-active-state this ::user/session)
         ready? (not= :state/initial session-state)]
@@ -77,6 +77,7 @@
   (enable-console-print!)
   (uism/begin! app/app user/session-machine ::user/session
     {:actor/user CurrentUser
-     :actor/login-form LoginForm})
+     :actor/login-form LoginForm
+     })
   (run)
   (router/start!))
