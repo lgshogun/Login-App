@@ -1,0 +1,9 @@
+2017-12-04 12:29:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LOCATIONS" not found; SQL statement:
+select x,y from locations where id=1 [42102-193]
+2017-12-04 12:30:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LOCATIONS" not found; SQL statement:
+select x, y from locations where id=1 [42102-193]
+2017-12-04 12:31:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LOCATIONS" not found; SQL statement:
+select x, y from locations where id = 1  [42102-193]
