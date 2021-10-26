@@ -1,2 +1,2 @@
 # Login-App
-Login application using ClojureScript Fulcro
+Start the server: lein run
