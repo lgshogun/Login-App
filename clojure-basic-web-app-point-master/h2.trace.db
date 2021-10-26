@@ -1,0 +1,9 @@
+2021-10-26 10:48:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ACCOUNT" not found; SQL statement:
+INSERT INTO account ( name, surname, email, password ) VALUES ( ?, ?, ?, ? ) [42102-193]
+2021-10-26 10:48:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ACCOUNT" not found; SQL statement:
+INSERT INTO account ( name, surname, email, password ) VALUES ( ?, ?, ?, ? ) [42102-193]
+2021-10-26 10:48:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ACCOUNT" not found; SQL statement:
+INSERT INTO account ( name, surname, email, password ) VALUES ( ?, ?, ?, ? ) [42102-193]
